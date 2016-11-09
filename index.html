@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>baiduyuqing</title>
+	<link rel="stylesheet" href="header.css">
+	<link rel="stylesheet" href="index_33826d0.css">
+	<link rel="stylesheet" href="index.css">
+	<link rel="stylesheet" href="jquery.fullPage_ac8fb6a.css">
+	<script src="js/jquery-1.8.3.min.js"></script>
+    <script src="js/jquery.fullPage.min.js"></script>
+    <script>
+        $(function(){
+            $('.dowebok').fullpage({
+                anchors: ['page1', 'page2', 'page3', 'page4'],
+                'navigation': true,
+            });
+            $(".arrowGo").click(function(){
+            	 $.fn.fullpage.moveSectionDown();
+            });
+        });
+    </script>
+</head>
+<body>
+	<div id="header">
+		<div class="nav">
+			<a href="#" class="mala-logo mala-fl"></a>
+			<div class="mala-fl">
+				<ul class="mala-nav-list mala-clearfix">
+					<li class="mala-nav-item mala-fl">
+					<a href="#" class="mala-nav-link">首页</a>
+					</li>
+					<li class="mala-nav-item mala-fl">
+					<a href="#" class="mala-nav-link">产品介绍</a>
+					</li>
+					<li class="mala-nav-item mala-fl">
+					<a href="#" class="mala-nav-link">用户版</a>
+					</li>
+				</ul>
+			</div>
+			<div class="nav-help">
+				<a href="#" class="J_btn_login" style="display:none">登录</a>
+				<a href="#" id="J_app" class="nav-app">手机客户端<i></i></a>
+				<a href="#" target="_blank">百度司南</a>
+				<a id="contact" class="contact">联系我们</a>
+				<a href="#" class="yellow">申请试用</a>
+			</div>
+			<div class="clear"></div>
+		</div>
+	</div>
+
+	<div id="fullpage" class="fullpage-wrapper fp-notransition dowebok" style="height: 100%; position: relative; touch-action: none; transform: none;">
+		<div class="section fp-section active fp-table" id="section-0" style="height: 381px; background-color: rgb(63, 176, 238);">			
+			<div class="top">
+				<div class="bg-cloud-1"></div>
+			</div>
+			<div class="middle">
+				<div class="bg-cloud-2"></div>
+			</div>
+			<div class="bottom">
+				<div class="bg-cloud-3"></div>
+			</div>
+			<div class="follow-head">
+				<div class="center">
+					<div class="obj obj-hill-2" style="visibility: visible;"></div>
+					<div class="obj obj-hill-3" style="visibility: visible;"></div>
+					<div class="obj obj-hill-1" style="visibility: visible;"></div>
+					<div class="obj obj-ship" style="visibility: visible;"></div>
+				</div>
+			</div>
+			<div class="center">
+				<div class="login-area uc-common-login" id="login">
+					<div id="common-login" class="login ">
+						<div class="login-shadow"></div>
+						<span class="watermark"></span>
+						<form id="uc-login" target="uc-login-iframe" action="#" method="post">
+							<div class="login-info">
+								<h2>登录</h2>
+								<div class="account">
+									<span></span>
+									<input type="text" id="uc-common-account" name="entered_login" autocomplete="off" placeholder="用户名" tabindex="1" maxlength="100" data-form-un="1477015067671.7727">
+								</div>
+								<p id="account-error" class="error"></p>
+								<div class="password">
+									<span></span>
+									<input type="hidden" id="uc-common-password" name="entered_password" style="display:none;">
+									<div id="uc-safe-pwd-input" class="safe-input">
+										<input name="sid" type="hidden" id="ucsl-input-sid" value="47FDE2AC91A9C492FA49B1CC9358F624">
+										<input name="pwd" type="hidden" id="ucsl-input-pwd">
+										<input id="ucsl-password-edit" type="password" autocomplete="off" placeholder="密码" tabindex="2" style="box-sizing:border-box;width:100%;height:100%;padding-left:0; " data-form-pw="1477015067671.7727">
+									</div>
+								</div>
+								<p id="password-error" class="error"></p>
+								<div class="token">
+									<input id="uc-common-token" type="text" placeholder="验证码" autocomplete="off" tabindex="3" maxlength="4" name="entered_imagecode">
+									<img id="token-img" class="js-change-token" title="验证码" width="99" height="39" alt="验证码" src="img/yanzhengma.jpg">
+									<a href="#" class="js-change-token">换一张</a>
+								</div>
+								<p id="token-error" class="error"></p>
+							</div>
+							<div class="login-action">
+								<input id="submit-form" class="submit" type="submit" value="登录" data-form-sbm="1477015067671.7727">
+								<div class="other">
+									<div class="fl">
+										<span></span>
+										<a href="#" target="_blank">安全控件常见问题</a>
+									</div>
+									<div class="fr">
+										<a href="#" target="_blank">忘记密码</a>
+									</div>
+								</div>
+							</div>
+							<input type="hidden" name="charset" value="utf-8">
+							<input type="hidden" name="appid" id="appid" value="315">
+							<input type="hidden" id="selfu" name="selfu" value="http://yuqing.baidu.com/zhengwu/static/home/uc/v3Jump.html">
+							<input type="hidden" id="fromu" name="fromu" value="http://yuqing.baidu.com/zhengwu/static/home/uc/v3Jump.html">
+							<input type="hidden" id="isajax" name="isajax" value="1">
+							<input type="hidden" value="1" name="senderr">
+							<input type="hidden" name="appscope[]" value="5">
+							<input type="hidden" name="appscope[]" value="4">
+							<input type="hidden" name="appscope[]" value="3">
+							<input type="hidden" name="appscope[]" value="2">
+							<input type="hidden" name="appscope[]" value="1">
+						</form>
+					</div>
+				</div>
+				<div class="obj obj-launch" style="visibility: visible;"></div>
+				<div class="obj obj-flight" style="visibility: visible;"></div>
+			</div>
+			<div class="bottom">
+				<div class="center">
+					<a href="#" class="J_btn_next-page btn-arrow arrowGo"></a>
+				</div>
+			</div>
+		</div>
+
+		<div class="section fp-section fp-table" id="section-1" style="height: 381px;background-color:rgb(13, 113, 205);">
+				<div class="center">
+					<div class="title-area title-area-1">
+						<div class="title">
+							<h3 class="y-ain">领先</h3>
+							<div class="text">
+								<h4>数据收集与处理</h4>
+								<p>15年专业数据收集与语义分析技术积累<br>卓越极致，不断攀登</p>
+							</div>
+						</div>
+					</div>
+					<div class="obj obj-brain" style="visibility: visible;"></div>
+				</div>
+				<div class="bottom">
+					<div class="center">
+						<div class="square square-1"></div>
+						<div class="square square-2"></div>
+						<div class="square square-3"></div>
+						<div class="square square-4"></div>
+						<div class="square square-5"></div>
+						<a href="#" class="J_btn_next-page btn-arrow arrowGo"></a>
+					</div>
+				</div>
+			
+		</div>
+
+		<div class="section fp-section fp-table" id="section-2" style="height:381px;background-color:rgb(73, 193, 121);">
+			
+				<div class="top">
+					<div class="center">
+						<div class="square square-1"></div>
+						<div class="square square-2"></div>
+						<div class="square square-3"></div>
+						<div class="square square-4"></div>
+						<div class="square square-5"></div>
+					</div>
+				</div>
+				<div class="follow-head"></div>
+				<div class="center">
+					<div class="title-area title-area-2">
+						<div class="title">
+							<h3 class="y-ain">全面</h3>
+							<div class="text">
+								<h4>舆情分析逻辑与架构</h4>
+								<p>声量诊断、传播分析、情感提炼、受众画像<br>有方法论，更有智慧</p>
+							</div>
+						</div>
+					</div>
+					<div class="obj obj-allside" style="visibility: visible;"></div>
+				</div>
+				<div class="bottom">
+					<div class="center">
+						<a href="#" class="J_btn_next-page btn-arrow arrowGo"></a>
+					</div>
+				</div>
+			
+		</div>
+
+		<div class="section fp-section fp-table" id="section-3" style="height:381px;background-color:rgb(0, 154, 112);">
+			
+				<div class="follow-head">
+					<div class="copyright">© 2014 Baidu
+						<a target="_blank" href="#">使用百度前必读</a>
+					</div>
+				</div>
+				<div class="center">
+					<div class="title-area title-area-3">
+						<div class="obj obj-bubble" style="visibility: visible;"></div>
+						<div class="title">
+							<h3 class="y-ain">专业</h3>
+							<div class="text">
+								<h4>专业数据可视化</h4>
+								<p>非凡的数据洞悉和可视化能力<br>精研数据，惊艳所见</p>
+							</div>
+						</div>
+					</div>
+					<div class="obj obj-stat" style="visibility: visible;"></div>
+				</div>
+			
+		</div>
+	</div>
+</body>
+</html>
